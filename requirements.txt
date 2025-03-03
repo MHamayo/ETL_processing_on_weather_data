@@ -1,0 +1,23 @@
+requests
+pandas
+pyyaml
+sqlite3
+## bash Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/MHamayo/ETL_processing_on_weather_data
+   cd weather-data-etl
+2. Install dependencies:
+sh
+pip install -r requirements.txt
+3.python etl_pipeline.py
+4. Viewing Data
+sqlite3 weather_data.db "SELECT * FROM weather;"
+5.Initialize a Git Repository
+git init
+git add .
+git commit -m "Initial commit - Weather Data ETL Pipeline"
+6. Connect Local Repo to GitHub
+git branch -M main
+git remote add origin https://github.com/MHamayo/ETL_processing_on_weather_data
+git push -u origin main
